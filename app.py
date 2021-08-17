@@ -2,9 +2,9 @@ import re
 import urllib.parse
 import urllib.request
 
-keyHashtag = INSERT_KEYWORD #or you can put what url u want and delete this line
+keyHashtag = INSERT_KEYWORD #put the keyword u want
 pattern = r'\B(\#[a-zA-Z]+\b)(?!;)'
-url = str('https://best-hashtags.com/hashtag/'+ keyHashtag)
+url = str('https://best-hashtags.com/hashtag/'+ keyHashtag) #or you can put what url u want that contains the hashtags and delete the keyHashtag variable
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
 values = {'name': 'Michael Foord',
           'location': 'Northampton',
